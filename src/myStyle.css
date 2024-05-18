@@ -1,0 +1,92 @@
+/* This is custom styling for Pen'n'Cils ecommerce site */
+.App{
+   background-image : url("http://www.pngmagic.com/product_images/eCommerce-website-banner-background.jpg");
+  background-repeat: repeat;
+}
+/* Styling for home page */
+#Home{
+    display: grid;
+    width: 30%;
+    gap: 1rem;
+    margin: 1rem auto;
+    height: 200%;
+  }
+ 
+  #LogoName{
+     width:30%;
+      background-Color: #282c34;
+      font-weight: 600;
+      font-Size: 2rem;
+      list-style-type: none;
+      padding-left: 0;
+  }
+ 
+  #LogoName a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding-left: 1rem;
+  }
+  
+  ul{ 
+    background-color: #282c34;
+    color:whitesmoke;
+    padding: 1rem;
+    display:flex;
+    justify-content: space-between;
+  
+  }
+  #nav
+  { 
+    width: 45%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+     }
+ 
+  #nav li :hover{
+  text-decoration: underline;
+  }
+  
+  #nav li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 2rem;
+  }
+/* Styling for products component */
+  
+  #products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;
+  }
+
+ #totalPrice{
+  text-align: right;
+  padding-right: 1rem;
+ }
+/* Styling for About page */
+ #About{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  justify-content: center;  
+
+}
+
+ #About ul {
+  list-style-type:disc;
+  display: grid;
+justify-items: start;
+
+ }
+
+ #storeImgs{
+  display: flex;
+  gap: 2rem;
+  justify-content:center;
+ }
+

@@ -56,13 +56,14 @@
     padding: 2rem;
   }
 /* Styling for products component */
-  
+/*   
   #products{
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
     gap: 1rem;
-  }
+    flex-grow: 1;
+  } */
 
  #totalPrice{
   text-align: right;
@@ -90,3 +91,20 @@ justify-items: start;
   justify-content:center;
  }
 
+ 
+#products{
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+}
+
+#FullCard{
+  display: grid;
+}
+
+#Card{
+  display: grid;
+  gap: 0.5rem;
+}

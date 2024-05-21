@@ -1,5 +1,7 @@
+////////////######## IMPORTANT PLEASE READ#####//////////
 //This component lets user select the color of the item
-
+//This component intially displays a button "select Color"
+//Once user selects a color,the text "select Color" on the dropdown button changes to selected color "
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import { useState } from "react";

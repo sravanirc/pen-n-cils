@@ -10,7 +10,7 @@ function NavMenu() {
         <li id="LogoName">
           <img
             src="./logo.jpg"
-            alt="logo"
+            alt="Pen'n'Cils logo "
             style={{ width: "3rem", borderRadius: "50%" }}
           />
           <Link to="/">Pen'n'cils</Link>
